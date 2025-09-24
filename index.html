@@ -6,18 +6,32 @@
         <link rel="apple-touch-icon" href="/html/favicon.png">
         <title>wiikunホームページ</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="/html/main.css">
     </head>
     <body>
+        <header>
+            <nav class="global_nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#yt">Youtube</a></li>
+                    <li class="nav_item"><a href="#game">ゲーム</a></li>
+                    <li class="nav_item"><a href="#tool">ツール</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="container">
             <h1>wiikunのホームページ</h1>
             <a href="./フィボナッチ数列.html" target="_blank">フィボナッチ数列を表示する</a>
-            <h2>Youtube</h2>
+            <h2 id="yt">Youtube</h2>
             <a href="https://www.youtube.com/@%E3%83%9E%E3%83%AA%E3%83%9F%E3%83%B3%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB" target="_blank">チャンネル</a>
             <p>動画</p>
             <iframe width="635" height="364" src="https://www.youtube.com/embed/_94iyKFmOlQ" title="over-world" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <h2>ゲーム</h2>
+            <h2 id="game">ゲーム</h2>
             <a href="./triadventure/index.html" target="_blank">三角アドベンチャー</a>
+            <h2 id="tool">ツール</h2>
+            <a href="https://github.com/wiikun/-Spreadsheet-automation-tool" target="_blank">表計算自動化ツール</a><br>
+            <a href="https://github.com/wiikun/javaguicompiler" target="_blank">JAVAGUIコンパイラー</a><br>
+            <a href="https://github.com/wiikun/json-readme-format" target="_blank">json説明書フォーマット</a><br>
         </div>
     </body>
 </html>
