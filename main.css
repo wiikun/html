@@ -59,10 +59,6 @@ iframe {
     padding: 20px 15px;
 }
 
-.pic{
-    float: left;
-}
-
 ul.nav_list li:hover{
     background: rgb(255, 55, 19);
 }
