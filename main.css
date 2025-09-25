@@ -36,7 +36,6 @@ iframe {
 
 .global_nav {
     font-size: 18px;
-    width: auto;
     background-color: black;
     position: fixed; top: 0; width: 100%;
 }
@@ -53,7 +52,7 @@ iframe {
     cursor: pointer;
 }
 
-.whlink{
+.whlink,.top{
     color: #fff;
     text-decoration: none;
     display: block;
@@ -66,4 +65,15 @@ iframe {
 
 ul.nav_list li:hover{
     background: rgb(255, 55, 19);
+}
+.top {
+    background-color: blue;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 20%; 
+    max-width: 120px; 
+    height: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
