@@ -7,6 +7,7 @@
     background-color: rgb(228, 228, 228);
     border: 2px solid gray;
     border-radius: 10px;
+    max-width: 90%;
 }
 
 body {
@@ -15,8 +16,8 @@ body {
     padding-top: 60px;
     background-image: repeating-linear-gradient(
         45deg,
-        rgba(255, 255, 255, 0.4) 0,
-        rgba(255,255,255,0.4) 10px,
+        rgba(255, 255, 255, 0.2) 0,
+        rgba(255,255,255,0.2) 10px,
         transparent 10px,
         transparent 20px
     );
@@ -26,36 +27,43 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'メイリオ','meiryo',sans-serif;
     text-shadow: 2px 2px 1px grey;
 } 
+
 iframe {
     max-width: 100%;
     height: auto;
     aspect-ratio: 16/9;
 }
+
 .global_nav {
     font-size: 18px;
     width: auto;
     background-color: black;
     position: fixed; top: 0; width: 100%;
 }
+
 .nav_list{
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
 .nav_item{
     display: inline-block;
     color: #fff;
     cursor: pointer;
 }
+
 .whlink{
     color: #fff;
     text-decoration: none;
     display: block;
     padding: 20px 15px;
 }
+
 .pic{
     float: left;
 }
+
 ul.nav_list li:hover{
     background: rgb(255, 55, 19);
 }
