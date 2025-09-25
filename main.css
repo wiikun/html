@@ -67,7 +67,7 @@ ul.nav_list li:hover{
     background: rgb(255, 55, 19);
 }
 .top {
-    background-color: blue;
+    background-color: rgb(255, 38, 0);
     border: 2px solid gray;
     border-radius: 10px;
     width: 20%; 
@@ -76,4 +76,5 @@ ul.nav_list li:hover{
     position: fixed;
     bottom: 20px;
     right: 20px;
+    text-align: center;
 }
