@@ -34,13 +34,14 @@ iframe {
 }
 .nav_item{
     display: inline-block;
-    padding: 20px 15px;
     color: #fff;
     cursor: pointer;
 }
 .whlink{
     color: #fff;
     text-decoration: none;
+    display: block;
+    padding: 20px 15px;
 }
 .pic{
     float: left;
