@@ -4,12 +4,22 @@
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(228, 228, 228);
+    border: 2px solid gray;
+    border-radius: 10px;
 }
 
 body {
     background-color: aquamarine;
     margin: 0; 
     padding-top: 60px;
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.4) 0,
+        rgba(255,255,255,0.4) 10px,
+        transparent 10px,
+        transparent 20px
+    );
 }
 
 h1,h2,h3,h4,h5,h6 {
