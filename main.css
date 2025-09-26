@@ -1,13 +1,14 @@
 @charset "utf-8";
 
 .container{
-    width: 500px;
+    min-width: 500px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(228, 228, 228);
     border: 2px solid gray;
     border-radius: 10px;
-    max-width: 90%;
+    max-width: 800px;
+    padding-left: 2px;
 }
 
 body {
@@ -38,6 +39,7 @@ iframe {
     font-size: 18px;
     background-color: black;
     position: fixed; top: 0; width: 100%;
+    left: 0%;
 }
 
 .nav_list{
@@ -77,4 +79,12 @@ ul.nav_list li:hover{
 
 .kakushi {
     color: rgb(228, 228, 228);
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding-left: 0;
+}
+
+.top:hover{
+    background-color: rgba(255, 38, 0, 0.75);;
 }
